@@ -12,6 +12,25 @@
 		8308821D2247C39000200C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8308821B2247C39000200C36 /* Main.storyboard */; };
 		8308821F2247C39100200C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8308821E2247C39100200C36 /* Assets.xcassets */; };
 		830882222247C39100200C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830882202247C39100200C36 /* LaunchScreen.storyboard */; };
+		8308822A2247C8C100200C36 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830882292247C8C100200C36 /* RegisterViewController.swift */; };
+		8308822D2247CA5900200C36 /* RegisterCurrentEmploymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308822B2247CA5900200C36 /* RegisterCurrentEmploymentCell.swift */; };
+		8308822E2247CA5900200C36 /* RegisterCurrentEmploymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8308822C2247CA5900200C36 /* RegisterCurrentEmploymentCell.xib */; };
+		830882332247CA8300200C36 /* RegisterPreviousEmploymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830882312247CA8300200C36 /* RegisterPreviousEmploymentCell.swift */; };
+		830882342247CA8300200C36 /* RegisterPreviousEmploymentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830882322247CA8300200C36 /* RegisterPreviousEmploymentCell.xib */; };
+		830882372247CA9800200C36 /* RegisterEducationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830882352247CA9800200C36 /* RegisterEducationCell.swift */; };
+		830882382247CA9800200C36 /* RegisterEducationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830882362247CA9800200C36 /* RegisterEducationCell.xib */; };
+		8308823A2247CEA400200C36 /* RegisterAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830882392247CEA400200C36 /* RegisterAgreementViewController.swift */; };
+		8308823C2247D1DE00200C36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308823B2247D1DE00200C36 /* HomeViewController.swift */; };
+		8308823F2247D51D00200C36 /* ServiceTimelineCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308823D2247D51D00200C36 /* ServiceTimelineCellTableViewCell.swift */; };
+		830882402247D51D00200C36 /* ServiceTimelineCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8308823E2247D51D00200C36 /* ServiceTimelineCellTableViewCell.xib */; };
+		830882422247D7C800200C36 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830882412247D7C800200C36 /* TimelineViewController.swift */; };
+		830882492247DB3800200C36 /* ServiceTimelineHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830882472247DB3800200C36 /* ServiceTimelineHistoryCell.swift */; };
+		8308824A2247DB3800200C36 /* ServiceTimelineHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830882482247DB3800200C36 /* ServiceTimelineHistoryCell.xib */; };
+		8308824C2247EA0800200C36 /* RequestApprovalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308824B2247EA0800200C36 /* RequestApprovalViewController.swift */; };
+		8308824F2247EB9F00200C36 /* PatientRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8308824D2247EB9F00200C36 /* PatientRequestCell.swift */; };
+		830882502247EB9F00200C36 /* PatientRequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8308824E2247EB9F00200C36 /* PatientRequestCell.xib */; };
+		830882532247EBDC00200C36 /* PhysicianDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830882512247EBDC00200C36 /* PhysicianDetailsCell.swift */; };
+		830882542247EBDC00200C36 /* PhysicianDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 830882522247EBDC00200C36 /* PhysicianDetailsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +41,25 @@
 		8308821E2247C39100200C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		830882212247C39100200C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		830882232247C39100200C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830882292247C8C100200C36 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8308822B2247CA5900200C36 /* RegisterCurrentEmploymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCurrentEmploymentCell.swift; sourceTree = "<group>"; };
+		8308822C2247CA5900200C36 /* RegisterCurrentEmploymentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterCurrentEmploymentCell.xib; sourceTree = "<group>"; };
+		830882312247CA8300200C36 /* RegisterPreviousEmploymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPreviousEmploymentCell.swift; sourceTree = "<group>"; };
+		830882322247CA8300200C36 /* RegisterPreviousEmploymentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterPreviousEmploymentCell.xib; sourceTree = "<group>"; };
+		830882352247CA9800200C36 /* RegisterEducationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterEducationCell.swift; sourceTree = "<group>"; };
+		830882362247CA9800200C36 /* RegisterEducationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterEducationCell.xib; sourceTree = "<group>"; };
+		830882392247CEA400200C36 /* RegisterAgreementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAgreementViewController.swift; sourceTree = "<group>"; };
+		8308823B2247D1DE00200C36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8308823D2247D51D00200C36 /* ServiceTimelineCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTimelineCellTableViewCell.swift; sourceTree = "<group>"; };
+		8308823E2247D51D00200C36 /* ServiceTimelineCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceTimelineCellTableViewCell.xib; sourceTree = "<group>"; };
+		830882412247D7C800200C36 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		830882472247DB3800200C36 /* ServiceTimelineHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTimelineHistoryCell.swift; sourceTree = "<group>"; };
+		830882482247DB3800200C36 /* ServiceTimelineHistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceTimelineHistoryCell.xib; sourceTree = "<group>"; };
+		8308824B2247EA0800200C36 /* RequestApprovalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestApprovalViewController.swift; sourceTree = "<group>"; };
+		8308824D2247EB9F00200C36 /* PatientRequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientRequestCell.swift; sourceTree = "<group>"; };
+		8308824E2247EB9F00200C36 /* PatientRequestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatientRequestCell.xib; sourceTree = "<group>"; };
+		830882512247EBDC00200C36 /* PhysicianDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicianDetailsCell.swift; sourceTree = "<group>"; };
+		830882522247EBDC00200C36 /* PhysicianDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhysicianDetailsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +95,28 @@
 				830882172247C39000200C36 /* AppDelegate.swift */,
 				830882192247C39000200C36 /* ViewController.swift */,
 				8308821B2247C39000200C36 /* Main.storyboard */,
+				830882292247C8C100200C36 /* RegisterViewController.swift */,
 				8308821E2247C39100200C36 /* Assets.xcassets */,
 				830882202247C39100200C36 /* LaunchScreen.storyboard */,
 				830882232247C39100200C36 /* Info.plist */,
+				8308822B2247CA5900200C36 /* RegisterCurrentEmploymentCell.swift */,
+				8308822C2247CA5900200C36 /* RegisterCurrentEmploymentCell.xib */,
+				830882312247CA8300200C36 /* RegisterPreviousEmploymentCell.swift */,
+				830882322247CA8300200C36 /* RegisterPreviousEmploymentCell.xib */,
+				830882352247CA9800200C36 /* RegisterEducationCell.swift */,
+				830882362247CA9800200C36 /* RegisterEducationCell.xib */,
+				830882392247CEA400200C36 /* RegisterAgreementViewController.swift */,
+				8308823B2247D1DE00200C36 /* HomeViewController.swift */,
+				8308823D2247D51D00200C36 /* ServiceTimelineCellTableViewCell.swift */,
+				8308823E2247D51D00200C36 /* ServiceTimelineCellTableViewCell.xib */,
+				830882412247D7C800200C36 /* TimelineViewController.swift */,
+				830882472247DB3800200C36 /* ServiceTimelineHistoryCell.swift */,
+				830882482247DB3800200C36 /* ServiceTimelineHistoryCell.xib */,
+				8308824B2247EA0800200C36 /* RequestApprovalViewController.swift */,
+				8308824D2247EB9F00200C36 /* PatientRequestCell.swift */,
+				8308824E2247EB9F00200C36 /* PatientRequestCell.xib */,
+				830882512247EBDC00200C36 /* PhysicianDetailsCell.swift */,
+				830882522247EBDC00200C36 /* PhysicianDetailsCell.xib */,
 			);
 			path = LyftNurseMaster;
 			sourceTree = "<group>";
@@ -122,9 +179,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8308822E2247CA5900200C36 /* RegisterCurrentEmploymentCell.xib in Resources */,
+				830882502247EB9F00200C36 /* PatientRequestCell.xib in Resources */,
+				8308824A2247DB3800200C36 /* ServiceTimelineHistoryCell.xib in Resources */,
 				830882222247C39100200C36 /* LaunchScreen.storyboard in Resources */,
 				8308821F2247C39100200C36 /* Assets.xcassets in Resources */,
+				830882402247D51D00200C36 /* ServiceTimelineCellTableViewCell.xib in Resources */,
+				830882382247CA9800200C36 /* RegisterEducationCell.xib in Resources */,
+				830882342247CA8300200C36 /* RegisterPreviousEmploymentCell.xib in Resources */,
 				8308821D2247C39000200C36 /* Main.storyboard in Resources */,
+				830882542247EBDC00200C36 /* PhysicianDetailsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +199,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8308824F2247EB9F00200C36 /* PatientRequestCell.swift in Sources */,
+				830882532247EBDC00200C36 /* PhysicianDetailsCell.swift in Sources */,
+				830882332247CA8300200C36 /* RegisterPreviousEmploymentCell.swift in Sources */,
+				8308822D2247CA5900200C36 /* RegisterCurrentEmploymentCell.swift in Sources */,
+				8308822A2247C8C100200C36 /* RegisterViewController.swift in Sources */,
+				830882492247DB3800200C36 /* ServiceTimelineHistoryCell.swift in Sources */,
+				8308823F2247D51D00200C36 /* ServiceTimelineCellTableViewCell.swift in Sources */,
+				8308823C2247D1DE00200C36 /* HomeViewController.swift in Sources */,
+				830882372247CA9800200C36 /* RegisterEducationCell.swift in Sources */,
+				8308824C2247EA0800200C36 /* RequestApprovalViewController.swift in Sources */,
 				8308821A2247C39000200C36 /* ViewController.swift in Sources */,
+				8308823A2247CEA400200C36 /* RegisterAgreementViewController.swift in Sources */,
 				830882182247C39000200C36 /* AppDelegate.swift in Sources */,
+				830882422247D7C800200C36 /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V252TK6927;
 				INFOPLIST_FILE = LyftNurseMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V252TK6927;
 				INFOPLIST_FILE = LyftNurseMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
